@@ -1,0 +1,129 @@
+﻿  Auth.cpp
+  main.cpp
+  Gerando Código...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_getsockopt, referenciado na função multi_wait
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_getsockopt
+libcurl_a.lib(cf-socket.obj) : error LNK2019: símbolo externo não resolvido, __imp_send, referenciado na função Curl_socket_open
+libcurl_a.lib(multi.obj) : error LNK2001: símbolo externo não resolvido __imp_send
+libcurl_a.lib(asyn-thread.obj) : error LNK2001: símbolo externo não resolvido __imp_send
+libcurl_a.lib(socketpair.obj) : error LNK2001: símbolo externo não resolvido __imp_send
+libcurl_a.lib(telnet.obj) : error LNK2001: símbolo externo não resolvido __imp_send
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSACloseEvent, referenciado na função curl_multi_add_handle
+libcurl_a.lib(telnet.obj) : error LNK2001: símbolo externo não resolvido __imp_WSACloseEvent
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSACreateEvent, referenciado na função Curl_multi_handle
+libcurl_a.lib(telnet.obj) : error LNK2001: símbolo externo não resolvido __imp_WSACreateEvent
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSAEnumNetworkEvents, referenciado na função multi_wait
+libcurl_a.lib(telnet.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAEnumNetworkEvents
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSAEventSelect, referenciado na função multi_wait
+libcurl_a.lib(telnet.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAEventSelect
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSAResetEvent, referenciado na função multi_wait
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSASetEvent, referenciado na função curl_multi_wakeup
+libcurl_a.lib(multi.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSAWaitForMultipleEvents, referenciado na função multi_wait
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_closesocket
+libcurl_a.lib(asyn-thread.obj) : error LNK2001: símbolo externo não resolvido __imp_closesocket
+libcurl_a.lib(hostip.obj) : error LNK2001: símbolo externo não resolvido __imp_closesocket
+libcurl_a.lib(socketpair.obj) : error LNK2001: símbolo externo não resolvido __imp_closesocket
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_closesocket
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_WSASetLastError
+libcurl_a.lib(asyn-thread.obj) : error LNK2001: símbolo externo não resolvido __imp_WSASetLastError
+libcurl_a.lib(connect.obj) : error LNK2001: símbolo externo não resolvido __imp_WSASetLastError
+libcurl_a.lib(select.obj) : error LNK2001: símbolo externo não resolvido __imp_WSASetLastError
+libcurl_a.lib(curl_addrinfo.obj) : error LNK2001: símbolo externo não resolvido __imp_WSASetLastError
+libcurl_a.lib(pingpong.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(telnet.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(tftp.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(asyn-thread.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(select.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(socketpair.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(schannel.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAGetLastError
+libcurl_a.lib(connect.obj) : error LNK2019: símbolo externo não resolvido, __imp_ntohs, referenciado na função Curl_addr2string
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_ntohs
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_ntohs
+libcurl_a.lib(socks_sspi.obj) : error LNK2001: símbolo externo não resolvido __imp_ntohs
+libcurl_a.lib(system_win32.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSAStartup, referenciado na função Curl_win32_init
+libcurl_a.lib(system_win32.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSACleanup, referenciado na função Curl_win32_cleanup
+libcurl_a.lib(transfer.obj) : error LNK2019: símbolo externo não resolvido, __imp_setsockopt, referenciado na função Curl_readwrite
+libcurl_a.lib(socketpair.obj) : error LNK2001: símbolo externo não resolvido __imp_setsockopt
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_setsockopt
+libcurl_a.lib(transfer.obj) : error LNK2019: símbolo externo não resolvido, __imp_WSAIoctl, referenciado na função Curl_readwrite
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_WSAIoctl
+libcurl_a.lib(smb.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(doh.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(socks_sspi.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(hostip.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(curl_addrinfo.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(telnet.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_htons
+libcurl_a.lib(hostip.obj) : error LNK2019: símbolo externo não resolvido, __imp_socket, referenciado na função Curl_ipv6works
+libcurl_a.lib(socketpair.obj) : error LNK2001: símbolo externo não resolvido __imp_socket
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_socket
+libcurl_a.lib(select.obj) : error LNK2019: símbolo externo não resolvido, __WSAFDIsSet, referenciado na função Curl_poll
+libcurl_a.lib(select.obj) : error LNK2019: símbolo externo não resolvido, __imp_select, referenciado na função Curl_poll
+libcurl_a.lib(socketpair.obj) : error LNK2019: símbolo externo não resolvido, __imp_accept, referenciado na função Curl_socketpair
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_accept
+libcurl_a.lib(socketpair.obj) : error LNK2019: símbolo externo não resolvido, __imp_bind, referenciado na função Curl_socketpair
+libcurl_a.lib(tftp.obj) : error LNK2001: símbolo externo não resolvido __imp_bind
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_bind
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_bind
+libcurl_a.lib(socketpair.obj) : error LNK2019: símbolo externo não resolvido, __imp_connect, referenciado na função Curl_socketpair
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_connect
+libcurl_a.lib(socketpair.obj) : error LNK2019: símbolo externo não resolvido, __imp_getsockname, referenciado na função Curl_socketpair
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_getsockname
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_getsockname
+libcurl_a.lib(socketpair.obj) : error LNK2019: símbolo externo não resolvido, __imp_htonl, referenciado na função Curl_socketpair
+libcurl_a.lib(noproxy.obj) : error LNK2001: símbolo externo não resolvido __imp_htonl
+libcurl_a.lib(socketpair.obj) : error LNK2019: símbolo externo não resolvido, __imp_listen, referenciado na função Curl_socketpair
+libcurl_a.lib(ftp.obj) : error LNK2001: símbolo externo não resolvido __imp_listen
+libcurl_a.lib(socketpair.obj) : error LNK2019: símbolo externo não resolvido, __imp_recv, referenciado na função Curl_socketpair
+libcurl_a.lib(cf-socket.obj) : error LNK2001: símbolo externo não resolvido __imp_recv
+libcurl_a.lib(curl_addrinfo.obj) : error LNK2019: símbolo externo não resolvido, __imp_getaddrinfo, referenciado na função Curl_getaddrinfo_ex
+libcurl_a.lib(curl_addrinfo.obj) : error LNK2019: símbolo externo não resolvido, __imp_freeaddrinfo, referenciado na função Curl_getaddrinfo_ex
+libcurl_a.lib(schannel.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertOpenStore, referenciado na função schannel_acquire_credential_handle
+libcurl_a.lib(schannel_verify.obj) : error LNK2001: símbolo externo não resolvido __imp_CertOpenStore
+libcurl_a.lib(schannel.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertCloseStore, referenciado na função schannel_shutdown
+libcurl_a.lib(schannel_verify.obj) : error LNK2001: símbolo externo não resolvido __imp_CertCloseStore
+libcurl_a.lib(schannel.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertEnumCertificatesInStore, referenciado na função traverse_cert_store
+libcurl_a.lib(schannel.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertFindCertificateInStore, referenciado na função schannel_acquire_credential_handle
+libcurl_a.lib(schannel.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertFreeCertificateContext, referenciado na função schannel_acquire_credential_handle
+libcurl_a.lib(schannel_verify.obj) : error LNK2001: símbolo externo não resolvido __imp_CertFreeCertificateContext
+libcurl_a.lib(schannel.obj) : error LNK2019: símbolo externo não resolvido, __imp_CryptStringToBinaryA, referenciado na função schannel_acquire_credential_handle
+libcurl_a.lib(schannel.obj) : error LNK2019: símbolo externo não resolvido, __imp_PFXImportCertStore, referenciado na função schannel_acquire_credential_handle
+libcurl_a.lib(tftp.obj) : error LNK2019: símbolo externo não resolvido, __imp_recvfrom, referenciado na função tftp_receive_packet
+libcurl_a.lib(tftp.obj) : error LNK2019: símbolo externo não resolvido, __imp_sendto, referenciado na função tftp_rx
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_init, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_sslinit, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_unbind_s, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_set_option, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_simple_bind_s, referenciado na função ldap_win_bind
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_bind_s, referenciado na função ldap_win_bind
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_search_s, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_msgfree, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_err2string, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_first_entry, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_next_entry, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_first_attribute, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_next_attribute, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_get_values_len, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_value_free_len, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_get_dn, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ldap_memfree, referenciado na função ldap_do
+libcurl_a.lib(ldap.obj) : error LNK2019: símbolo externo não resolvido, __imp_ber_free, referenciado na função ldap_do
+libcurl_a.lib(idn.obj) : error LNK2019: símbolo externo não resolvido, __imp_IdnToAscii, referenciado na função Curl_idn_decode
+libcurl_a.lib(idn.obj) : error LNK2019: símbolo externo não resolvido, __imp_IdnToUnicode, referenciado na função Curl_idn_encode
+libcurl_a.lib(cf-socket.obj) : error LNK2019: símbolo externo não resolvido, __imp_getpeername, referenciado na função Curl_conn_tcp_accepted_set
+libcurl_a.lib(nonblock.obj) : error LNK2019: símbolo externo não resolvido, __imp_ioctlsocket, referenciado na função curlx_nonblock
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CryptDecodeObjectEx, referenciado na função Curl_verify_host
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertAddCertificateContextToStore, referenciado na função add_certs_data_to_store
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertFindExtension, referenciado na função Curl_verify_host
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertGetNameStringA, referenciado na função Curl_verify_host
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CryptQueryObject, referenciado na função add_certs_data_to_store
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertCreateCertificateChainEngine, referenciado na função Curl_verify_certificate
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertFreeCertificateChainEngine, referenciado na função Curl_verify_certificate
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertGetCertificateChain, referenciado na função Curl_verify_certificate
+libcurl_a.lib(schannel_verify.obj) : error LNK2019: símbolo externo não resolvido, __imp_CertFreeCertificateChain, referenciado na função Curl_verify_certificate
+libcurl_a.lib(curl_gethostname.obj) : error LNK2019: símbolo externo não resolvido, __imp_gethostname, referenciado na função Curl_gethostname
+D:\Auth\Exemples\Cpp Exemple\Cpp Exemple - Console\Cpp Exemple\x64\Debug\inside.exe : fatal error LNK1120: 71 externo não resolvidos
